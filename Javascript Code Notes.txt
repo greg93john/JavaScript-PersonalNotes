@@ -1,0 +1,22 @@
+// this for-loop checks the variable type of each property in the 'languages' class, and if it is a "string", prints it out into the console log.
+
+for (var x in languages){
+    if(typeof languages[x] === "string"){
+     console.log(languages[x]);
+    }
+}
+
+
+// this checks the type of the property of the Object.prototype
+// what is this "Object.prototype" anyway...?
+
+var prototypeType = typeof Object.prototype;
+console.log(prototypeType);
+
+
+
+// this checks if the Object class has a property named "hasOwnProrotype"
+// now let's examine it!
+
+var hasOwn = Object.prototype.hasOwnProperty("hasOwnProperty");
+console.log(hasOwn);
