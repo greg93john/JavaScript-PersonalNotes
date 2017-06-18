@@ -1,0 +1,22 @@
+JAVA SUB NOTES:
+/****Class Structure****/
+
+public class [Class Name] {
+
+  // Values that are attributes to define the class
+  [values];
+
+
+
+  // Class constructor, to set initial values when a new Object of this class is created
+  public [Class Name]([arguments]){
+    [values] = [arguments];
+  }
+
+
+
+  // Methods that define how the Class functions
+  public/private [method]([arguments?]){
+    /*code for method*/
+  }
+}
