@@ -20,3 +20,10 @@ public class [Class Name] {
     /*code for method*/
   }
 }
+
+
+/****String Values****/
+
+// using the following allows you to implicitly declare the value of a quotation mark in a string.
+
+---> " /" "
